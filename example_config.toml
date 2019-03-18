@@ -1,0 +1,10 @@
+[general]
+port = 8000
+
+[limits]
+download_speed = 2000
+upload_speed = 2000
+
+[backend.main]
+endpoint = "/main"
+server = "http://example.com"

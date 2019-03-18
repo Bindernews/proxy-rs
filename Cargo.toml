@@ -1,0 +1,11 @@
+[package]
+name = "proxy-rus"
+version = "0.1.0"
+authors = ["bindernews"]
+edition = "2018"
+
+[dependencies]
+toml = "0.4"
+hyper = "0.12"
+serde = { version = "1.0", features = ["derive"] }
+url = "1.7"
